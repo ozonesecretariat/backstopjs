@@ -1,0 +1,14 @@
+{
+    "name": "ozone_backstopjs",
+    "private": true,
+    "config": {
+        "baseUrl": "https://ozone.unep.org"
+    },
+    "scripts": {
+        "test": "backstop test --config=backstop.config.js",
+        "reference": "backstop reference --config=backstop.config.js"
+    },
+    "dependencies": {
+        "backstopjs": "^6.2.2"
+    }
+}
